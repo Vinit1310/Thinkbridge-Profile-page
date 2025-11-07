@@ -39,3 +39,76 @@ body {
 .logo span {
   color: #facc15;
 }
+
+.profile {
+  /* float: left; */
+  /* position: relative; */
+  background-repeat: no-repeat;
+  height: 500px;
+  margin: 25px;
+  border-radius: 40px;
+  transition-duration: 2s;
+}
+
+.profile:hover {
+  size: 5px;
+  background-color: 20px 20px azure;
+  transform: scale(1.09);
+  color: blue;
+  box-shadow: 0 0 20px 5px rgba(168, 218, 239, 0.732);
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+.navbar ul li a {
+  color: #f1f5f9;
+  text-decoration: none;
+  margin: 0 15px;
+  transition: 0.3s;
+}
+.navbar ul li a:hover {
+  color: #38bdf8;
+}
+
+/* ===== HERO ===== */
+.hero {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(120deg, #1e293b, #0f172a);
+}
+.hero-content h2 {
+  font-size: 2.5rem;
+}
+.hero-content span {
+  color: #38bdf8;
+}
+.hero-content h3 {
+  font-size: 1.3rem;
+  color: #facc15;
+  margin-top: 10px;
+}
+.hero-buttons {
+  margin-top: 20px;
+}
+.btn {
+  background: #38bdf8;
+  color: #0f172a;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  margin: 5px;
+  font-weight: 600;
+}
+.btn-outline {
+  background: transparent;
+  border: 2px solid #38bdf8;
+  color: #38bdf8;
+}
+.btn:hover {
+  opacity: 0.9;
+}
