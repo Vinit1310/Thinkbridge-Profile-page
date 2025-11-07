@@ -120,3 +120,31 @@ body {
 .btn:hover {
   opacity: 0.9;
 }
+
+/* ===== SECTIONS ===== */
+section {
+  padding: 60px 80px;
+  text-align: center;
+}
+h2 {
+  color: #facc15;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+p {
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+/* ===== SKILLS ===== */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+.skills-grid div {
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 10px;
+}
